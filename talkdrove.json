@@ -1,11 +1,11 @@
 
 
 {
-  "bot-name": "gifted-md",
-  "description": "I am Gifted-Md, a Simple WhatsApp Bot built with NodeJs to Enhance WhatsApp Communication experience",
-  "logo": "https://files.catbox.moe/52699c.jpg",
-  "keywords": ["gifted-md", "giftedtech", "Gifted-Md"],
-  "documentation-link": "https://pairing.giftedtech.web.id",
+  "bot-name": "BWM-XMD",
+  "description": "I am bwm xmd, a Simple WhatsApp Bot built with NodeJs to Enhance WhatsApp Communication experience",
+  "logo": "https://files.catbox.moe/sd49da.jpg",
+  "keywords": ["Ibrahim-Adams", "Bwm-xmd", "xmdtech"],
+  "documentation-link": "https://www.ibrahimadams.site/scanner",
   "owner-verification":"jemmimaonyango@gmail.com",
   "env": {
     "PREFIX":
