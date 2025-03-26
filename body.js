@@ -1,3 +1,11 @@
+//=====================//
+//     Bwm xmd         //
+//  Sir Ibrahim Adams  //
+//=====================//
+
+
+
+
 const axios = require('axios');
 const cheerio = require('cheerio');
 const adams = require(__dirname + "/config");
