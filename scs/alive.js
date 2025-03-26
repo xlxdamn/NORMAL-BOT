@@ -6,7 +6,7 @@ const adams = require(__dirname + "/../config");
 
 async function fetchAliveUrl() {
   try {
-    const response = await axios.get(adams.ALIVE_URL);
+    const response = await axios.get(adams.BWM_XMD);
     const $ = cheerio.load(response.data);
 
     const aliveUrlElement = $('a:contains("ALIVE_URL")');
